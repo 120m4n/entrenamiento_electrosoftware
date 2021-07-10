@@ -1,9 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2021/07/09 16:44:27.717,=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021/07/09 16:48:35.228,D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\uMain.dfm=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
-    <Transaction>2021/07/09 16:48:35.228,D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\uMain.pas=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2021/07/09 16:48:47.715,D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\Calculadora.dproj=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2021/07/09 16:44:27.000.717,=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/07/09 16:48:35.000.228,D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\uMain.dfm=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2021/07/09 16:48:35.000.228,D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\uMain.pas=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2021/07/09 16:48:47.000.715,D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\Calculadora.dproj=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/07/10 10:29:27.066,=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\Unit1.pas</Transaction>
+    <Transaction>2021/07/10 10:29:55.783,=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\Unit2.pas</Transaction>
+    <Transaction>2021/07/10 10:38:12.806,=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\Unit1.pas</Transaction>
+    <Transaction>2021/07/10 10:39:16.361,D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\uFunciones.pas=D:\Bibliotecas\Documentos\Embarcadero\Studio\Projects\Encuentros-ES\Yuri_Yanfer\calculadora\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

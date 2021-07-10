@@ -44,7 +44,6 @@ object Form2: TForm2
     Height = 25
     Caption = '2'
     TabOrder = 2
-    OnClick = btn_2Click
   end
   object btn_3: TButton
     Left = 136
@@ -79,7 +78,6 @@ object Form2: TForm2
     Height = 25
     Caption = '2'
     TabOrder = 6
-    OnClick = btn_2Click
   end
   object Button7: TButton
     Left = 136
@@ -95,9 +93,9 @@ object Form2: TForm2
     Top = 120
     Width = 33
     Height = 25
-    Caption = '2'
+    Caption = '22'
     TabOrder = 8
-    OnClick = btn_2Click
+    OnClick = Button8Click
   end
   object Button9: TButton
     Left = 40
@@ -115,7 +113,6 @@ object Form2: TForm2
     Height = 25
     Caption = '2'
     TabOrder = 10
-    OnClick = btn_2Click
   end
   object Button11: TButton
     Left = 136
@@ -143,5 +140,14 @@ object Form2: TForm2
     TabOrder = 13
     TextHint = 'Nombre'
     OnKeyPress = Edit1KeyPress
+  end
+  object btnAsync: TButton
+    Left = 8
+    Top = 51
+    Width = 75
+    Height = 25
+    Caption = 'btnAsync'
+    TabOrder = 14
+    OnClick = btnAsyncClick
   end
 end

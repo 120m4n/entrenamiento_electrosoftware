@@ -3,8 +3,8 @@ unit uMain;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
-   Vcl.Graphics,
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes,   Vcl.Graphics, System.Threading, OtlParallel,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
@@ -24,14 +24,16 @@ type
     Button2: TButton;
     Edit1: TEdit;
     Label1: TLabel;
+    btnAsync: TButton;
     procedure Button1Click(Sender: TObject);
-    procedure btn_2Click(Sender: TObject);
     procedure btn_3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
     procedure Button9Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
     procedure Button11Click(Sender: TObject);
     procedure Edit1KeyPress(Sender: TObject; var Key: Char);
+    procedure btnAsyncClick(Sender: TObject);
+    procedure Button8Click(Sender: TObject);
   private
     { Private declarations }
     procedure BorrarContenidoEdit();
@@ -46,27 +48,7 @@ implementation
 
 {$R *.dfm}
 
-
-
-////
-
-
- function AddDot(value : string):string;
- begin
-
-
-    value := '...Hola......' + value + '.........';
-
-  result := value;
-
- end;
-
- procedure BorrarResultado(param_edt : TEdit);
- begin
-    param_edt.text := '';
- end;
-
-///
+uses uFunciones;
 
 
 
@@ -83,9 +65,24 @@ begin
    BorrarContenidoEdit;
 end;
 
-procedure TForm2.btn_2Click(Sender: TObject);
+procedure TForm2.btnAsyncClick(Sender: TObject);
 begin
-   edtResultado.Text := edtResultado.Text + '22';
+//    btnAsync.Enabled := false;
+//
+//  Parallel.Async(
+//    procedure
+//    begin
+//      // executed in background thread
+//      Sleep(500);
+//      MessageBeep($FFFFFFFF);
+//    end,
+//
+//    procedure
+//    begin
+//      // executed in main thread
+//      btnAsync.Enabled := true;
+//    end
+//  );
 end;
 
 procedure TForm2.btn_3Click(Sender: TObject);
@@ -117,15 +114,26 @@ begin
   edtResultado.Text := edtResultado.Text + '4';
 end;
 
+procedure TForm2.Button8Click(Sender: TObject);
+begin
+   edtResultado.text := Tecla22(edtResultado.text);
+   ShowMessage('Presiono la tecla 22');
+end;
+
 procedure TForm2.Button9Click(Sender: TObject);
 begin
     BorrarResultado(edtResultado);
 end;
 
 procedure TForm2.Edit1KeyPress(Sender: TObject; var Key: Char);
+var
+  I:integer;
+  tmp:string;
 begin
- if key <> 'h'  then exit;
-   showmessage('Paso por aqui');
+//  if Key in ['a'..'z', 'A'..'Z'] then
+//    Key := #0;
+
+if Key in ['0'..'9', '.','/','*','+','-'] then Key := #0;
 
 end;
 
