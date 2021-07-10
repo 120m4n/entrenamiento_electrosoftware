@@ -149,4 +149,12 @@ object Form2: TForm2
     Caption = 'Button3'
     TabOrder = 14
   end
+  object Edit2: TEdit
+    Left = 24
+    Top = 104
+    Width = 25
+    Height = 21
+    TabOrder = 15
+    Text = 'Edit2'
+  end
 end
