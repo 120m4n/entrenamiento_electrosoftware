@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
-  System.Classes,   Vcl.Graphics, System.Threading, OtlParallel,
+  System.Classes,   Vcl.Graphics, System.Threading,
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
 
 type
@@ -24,7 +24,6 @@ type
     Button2: TButton;
     Edit1: TEdit;
     Label1: TLabel;
-    btnAsync: TButton;
     procedure Button1Click(Sender: TObject);
     procedure btn_3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);
@@ -32,7 +31,6 @@ type
     procedure Button2Click(Sender: TObject);
     procedure Button11Click(Sender: TObject);
     procedure Edit1KeyPress(Sender: TObject; var Key: Char);
-    procedure btnAsyncClick(Sender: TObject);
     procedure Button8Click(Sender: TObject);
   private
     { Private declarations }
@@ -65,25 +63,6 @@ begin
    BorrarContenidoEdit;
 end;
 
-procedure TForm2.btnAsyncClick(Sender: TObject);
-begin
-//    btnAsync.Enabled := false;
-//
-//  Parallel.Async(
-//    procedure
-//    begin
-//      // executed in background thread
-//      Sleep(500);
-//      MessageBeep($FFFFFFFF);
-//    end,
-//
-//    procedure
-//    begin
-//      // executed in main thread
-//      btnAsync.Enabled := true;
-//    end
-//  );
-end;
 
 procedure TForm2.btn_3Click(Sender: TObject);
 begin

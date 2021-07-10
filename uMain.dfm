@@ -141,13 +141,4 @@ object Form2: TForm2
     TextHint = 'Nombre'
     OnKeyPress = Edit1KeyPress
   end
-  object btnAsync: TButton
-    Left = 8
-    Top = 51
-    Width = 75
-    Height = 25
-    Caption = 'btnAsync'
-    TabOrder = 14
-    OnClick = btnAsyncClick
-  end
 end
