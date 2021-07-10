@@ -24,6 +24,7 @@ type
     Button2: TButton;
     Edit1: TEdit;
     Label1: TLabel;
+    Button3: TButton;
     procedure Button1Click(Sender: TObject);
     procedure btn_3Click(Sender: TObject);
     procedure Button4Click(Sender: TObject);

@@ -141,4 +141,12 @@ object Form2: TForm2
     TextHint = 'Nombre'
     OnKeyPress = Edit1KeyPress
   end
+  object Button3: TButton
+    Left = 55
+    Top = 51
+    Width = 75
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 14
+  end
 end
