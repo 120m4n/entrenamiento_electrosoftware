@@ -1,4 +1,4 @@
-program Calculadora;
+program Calculadora1;
 
 uses
   Vcl.Forms,
